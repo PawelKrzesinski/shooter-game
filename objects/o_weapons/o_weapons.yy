@@ -29,6 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "weapons",
-    "path": "folders/1_Objects/weapons.yy",
+    "path": "folders/1_Objects/UI/weapon_pick/weapons.yy",
   },
 }

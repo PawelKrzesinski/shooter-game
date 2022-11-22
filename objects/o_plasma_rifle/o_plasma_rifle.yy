@@ -1,19 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_bullet_auto",
-  "spriteId": {
-    "name": "s_bullet_auto_rifle",
-    "path": "sprites/s_bullet_auto_rifle/s_bullet_auto_rifle.yy",
-  },
+  "name": "o_plasma_rifle",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_bullet",
-    "path": "objects/o_bullet/o_bullet.yy",
+    "name": "o_weapons",
+    "path": "objects/o_weapons/o_weapons.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ammo_types",
-    "path": "folders/1_Objects/UI/weapon_pick/ammo_types.yy",
+    "name": "weapons",
+    "path": "folders/1_Objects/UI/weapon_pick/weapons.yy",
   },
 }

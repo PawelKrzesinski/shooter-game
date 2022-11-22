@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_bullet_auto",
+  "name": "o_bullet_launcher",
   "spriteId": {
-    "name": "s_bullet_auto_rifle",
-    "path": "sprites/s_bullet_auto_rifle/s_bullet_auto_rifle.yy",
+    "name": "s_bullet_launcher",
+    "path": "sprites/s_bullet_launcher/s_bullet_launcher.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_bullet_auto",
+  "name": "o_bullet_plasma",
   "spriteId": {
-    "name": "s_bullet_auto_rifle",
-    "path": "sprites/s_bullet_auto_rifle/s_bullet_auto_rifle.yy",
+    "name": "s_bullet_plasma",
+    "path": "sprites/s_bullet_plasma/s_bullet_plasma.yy",
   },
   "solid": false,
   "visible": true,

@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 event_inherited();
-speed = 18;
+speed = 2;
