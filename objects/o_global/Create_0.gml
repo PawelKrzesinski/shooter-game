@@ -29,6 +29,3 @@ global.dimensions = {
 	healthbar_height: 6,
 }
 
-
-
-

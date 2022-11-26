@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-event_inherited();
-speed = 18;
+draw_sprite(s_crosshair, 0, mouse_x, mouse_y)
