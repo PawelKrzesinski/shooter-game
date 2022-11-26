@@ -58,4 +58,4 @@ function open_stat_menu(){
 
 event_user(0);
 
-
+instance_create_layer(mouse_x, mouse_y, "Bullet", o_crosshair)

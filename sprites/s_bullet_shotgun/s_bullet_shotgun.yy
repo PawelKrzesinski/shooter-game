@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "s_automatic_shot",
+  "name": "s_bullet_shotgun",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -13,13 +13,13 @@
   "bbox_left": 0,
   "bbox_right": 15,
   "bbox_top": 0,
-  "bbox_bottom": 7,
+  "bbox_bottom": 4,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
   "width": 16,
-  "height": 8,
+  "height": 5,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "s_automatic_shot",
+    "name": "s_bullet_shotgun",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e4477449-9606-4bad-9045-d89aa1fe77b7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cce22de-f418-49f3-8197-d11cf8a324bb","path":"sprites/s_automatic_shot/s_automatic_shot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f6bc7e67-87c9-4b50-a0fa-1566c102ad4a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cce22de-f418-49f3-8197-d11cf8a324bb","path":"sprites/s_bullet_shotgun/s_bullet_shotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,7 +59,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 8,
-    "yorigin": 4,
+    "yorigin": 2,
     "eventToFunction": {},
     "eventStubScript": null,
   },

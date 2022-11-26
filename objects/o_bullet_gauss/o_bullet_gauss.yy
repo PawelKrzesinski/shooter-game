@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_bullet_gauss",
   "spriteId": {
-    "name": "s_gauss_shot",
-    "path": "sprites/s_gauss_shot/s_gauss_shot.yy",
+    "name": "s_bullet_gauss",
+    "path": "sprites/s_bullet_gauss/s_bullet_gauss.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,6 +34,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "ammo_types",
-    "path": "folders/1_Objects/ammo_types.yy",
+    "path": "folders/1_Objects/UI/weapon_pick/ammo_types.yy",
   },
 }

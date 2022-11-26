@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_bullet_auto",
   "spriteId": {
-    "name": "s_automatic_shot",
-    "path": "sprites/s_automatic_shot/s_automatic_shot.yy",
+    "name": "s_bullet_auto_rifle",
+    "path": "sprites/s_bullet_auto_rifle/s_bullet_auto_rifle.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,6 +34,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "ammo_types",
-    "path": "folders/1_Objects/ammo_types.yy",
+    "path": "folders/1_Objects/UI/weapon_pick/ammo_types.yy",
   },
 }

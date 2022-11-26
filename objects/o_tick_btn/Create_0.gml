@@ -8,8 +8,17 @@ function spawn_weapon(){
 		case 1:
 			instance_create_layer(o_player.x, o_player.y,"Instances", o_assault_rifle);
 			break;
+		case 2:
+			instance_create_layer(o_player.x, o_player.y,"Instances", o_shotgun);
+			break;
 		case 3:
 			instance_create_layer(o_player.x, o_player.y,"Instances", o_gauss_rifle);
+			break;
+		case 4:
+			instance_create_layer(o_player.x, o_player.y,"Instances", o_plasma_rifle);
+			break;
+		case 5:
+			instance_create_layer(o_player.x, o_player.y,"Instances", o_launcher);
 			break;
 	}
 	with(o_tick_btn){

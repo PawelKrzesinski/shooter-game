@@ -29,6 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "ammo_types",
-    "path": "folders/1_Objects/ammo_types.yy",
+    "path": "folders/1_Objects/UI/weapon_pick/ammo_types.yy",
   },
 }

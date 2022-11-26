@@ -5,8 +5,3 @@ attack_timer_max = 120;
 attack_timer = 120;
 damage = 40;
 recoil = 7;
-bullets = o_bullet_gauss;
-
-
-
-

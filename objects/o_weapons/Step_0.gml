@@ -1,16 +1,40 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_yscale = o_mouse.flippedX;
-key_attack = mouse_check_button(mb_left);
 recoil = max(0, recoil - 1);
-towards_mouse_angle = point_direction(x, y, mouse_x, mouse_y);
-if (instance_exists(o_player) && key_attack && attack_timer <= 0){
-		recoil = recoil;
-		attack_timer = attack_timer_max;
-		bullet = instance_create_layer(x, y, "Bullet", bullets);
-		bullet.image_angle = towards_mouse_angle;
-		bullet.direction = towards_mouse_angle + random_range(-3, 3);	
+
+if (instance_exists(o_player) && o_mouse.key_attack && attack_timer <= 0){
+	recoil = recoil;
+	attack_timer = attack_timer_max;
+	
+	
+	switch(global.save_data.weapon_picked) {
+		case 1:
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_auto);
+			break;
+		case 2:
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_shotgun);
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_shotgun);
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_shotgun);
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_shotgun);
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_shotgun);
+			break;
+		case 3:
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_gauss);
+			break;
+		case 4:
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_plasma);
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_plasma);
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_plasma);
+			break;
+		case 5:
+			instance_create_layer(o_player.x, o_player.y, "Bullet", o_bullet_launcher);
+			break;
+		default:
+			break;
+		
+	}
+
 
 }
 x = o_player.x - 8 * o_mouse.flippedX;
